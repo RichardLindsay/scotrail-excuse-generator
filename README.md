@@ -1,4 +1,4 @@
-![ScotFail Logo](https://raw.githubusercontent.com/RichardLindsay/scotrail-excuse-generator/master/src/assets/logo.svg)
+![ScotFail Logo](/src/assets/logo.svg)
 
 # ScotRail Excuse Generator
 
