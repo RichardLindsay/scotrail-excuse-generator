@@ -1,9 +1,11 @@
 <template>
   <div id="app">
+    <a href="https://github.com/RichardLindsay/scotrail-excuse-generator" target="_blank" class="octocat"><img src="./assets/octocat.svg"/></a>
     <img id="logo" src="./assets/logo.svg"/>
     <p v-bind:class="{ excuse: show_excuse }">{{ excuse }}</p>
     <a class="button" href="#" v-on:click.prevent="generate()"><span>Generate</span></a>
     <a href="https://twitter.com/hashtag/scotfail" target="_blank">#scotfail</a>
+
   </div>
 </template>
 
@@ -35,12 +37,13 @@ export default {
         'no step free access.',
         'a fault on the train that we need to repair.',
         'there being too many passengers.',
-        'a points failure in the arse end of nowhere.',
+        'a points failure in the middle of nowhere.',
         'trampolines.',
         'cows on the line.',
         'there being too few carriages.',
         'the waves being too high.',
-        'the tracks being slightly wet.'
+        'the tracks being slightly wet.',
+        'an air leak on a train that needs to be repaired.'
       ],
       excuse: 'Click to generate an excuse...',
       show_excuse: false
@@ -57,7 +60,7 @@ export default {
 
 <style>
 body{
-  margin: 40px;
+  margin: 0 40px;
 }
 #app {
   align-items: center;
@@ -149,8 +152,14 @@ a:hover {
   height: 10px;
   position: absolute;
   right: 7px;
-  top: 5px;
+  top: 12px;
   width: 10px;
+}
+.octocat {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  margin: 0;
 }
 
 @media (min-width: 960px) {
@@ -186,7 +195,7 @@ a:hover {
     box-shadow: inset 2px 1px 5px 0px black;
     height: 20px;
     right: 15px;
-    top: 10px;
+    top: 25px;
     width: 20px;
   }
 }

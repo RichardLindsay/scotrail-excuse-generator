@@ -1,6 +1,12 @@
-# scotrail-excuse-generator
+![ScotFail Logo](https://raw.githubusercontent.com/RichardLindsay/scotrail-excuse-generator/master/src/assets/logo.svg)
+
+# ScotRail Excuse Generator
 
 > Making it easier for Scotrail to come up with excuses
+
+This app is no way connected with Abellio or ScotRail.
+
+<!-- Example at http://www.scotfail.party -->
 
 ## Build Setup
 
@@ -13,9 +19,4 @@ npm run dev
 
 # build for production with minification
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
