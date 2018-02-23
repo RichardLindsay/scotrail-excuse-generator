@@ -43,9 +43,12 @@ export default {
         'there being too few carriages.',
         'the waves being too high.',
         'the tracks being slightly wet.',
+        'the train crew being out of position.',
+        'multiple signals reflecting in the curved windscreen when driving at night.',
+        'a naked trespasser on the tracks.',
         'an air leak on a train that needs to be repaired.'
       ],
-      excuse: 'Click to generate an excuse...',
+      excuse: 'Click below to generate an excuse...',
       show_excuse: false
     }
   },

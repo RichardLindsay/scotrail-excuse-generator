@@ -6,7 +6,7 @@
 
 This app is no way connected with Abellio or ScotRail.
 
-<!-- Example at http://www.scotfail.party -->
+Example at http://www.scotfail.party
 
 ## Build Setup
 
@@ -20,3 +20,7 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
+## License
+
+MIT
