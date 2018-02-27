@@ -46,6 +46,7 @@ export default {
         'the train crew being out of position.',
         'multiple signals reflecting in the curved windscreen when driving at night.',
         'a naked trespasser on the tracks.',
+        'a fault with barriers at a level crossing.',
         'an air leak on a train that needs to be repaired.'
       ],
       excuse: 'Click below to generate an excuse...',
