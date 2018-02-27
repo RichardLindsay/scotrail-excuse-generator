@@ -8,7 +8,8 @@
     "dev": "webpack-dev-server --inline --host 0.0.0.0 --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node build/build.js && git add . && got commit -m 'Update build' && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "vue": "^2.5.2"
