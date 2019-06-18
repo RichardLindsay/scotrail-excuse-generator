@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy": "node build/build.js && git add . && git commit -m 'Update build' && git subtree push --prefix dist origin gh-pages"
+    "deploy": "node build/build.js && git add . && git commit -m 'Update build' && git push && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "vue": "^2.5.2"
